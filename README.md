@@ -27,6 +27,8 @@ An analysis is performed to ensure there are no null values, as the model cannot
 The preprocessing steps include:
 - Removing the "id" column from the test dataset to match the training dataset.
 - Separating the training dataset into categorical and numerical columns, converting categorical data to numerical using "one hot encoding," and then concatenating these back into a single dataframe.
+- To improve my model, I apply these estimated prices to my test dataset and add it to the training dataset by concatenating it.
+
 
 #### SCALING
 `StandardScaler` from `sklearn.preprocessing` is applied to scale the features.
